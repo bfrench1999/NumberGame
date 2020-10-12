@@ -1,0 +1,65 @@
+button {
+  width: 33%;
+  height: 200px;
+  cursor: pointer;
+}
+#buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 90vh;
+  flex-direction: column;
+}
+p.start-btn {
+  color: whitesmoke;
+  font-size: 3rem;
+}
+
+#easy-btn {
+  background-color: #7ea04d;
+  border-color: #335d2d;
+  border-width: 10px;
+}
+#med-btn {
+  background-color: #f0a500;
+  border-color: #cf7500;
+  border-width: 10px;
+}
+
+#hard-btn {
+  background-color: #ff414d;
+  border-color: #931a25;
+  border-width: 10px;
+}
+#start-buttons {
+  display: flex;
+  width: 100%;
+}
+#game-container {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 15%;
+}
+#number-button {
+  margin-left: 30px;
+  width: 20%;
+  height: 20px;
+}
+#info-center {
+  width: 100%;
+  height: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 2rem;
+  text-transform: capitalize;
+  font-family: Arial;
+  letter-spacing: 2px;
+  background-color: #f6f6f6;
+  border-radius: 5%;
+}

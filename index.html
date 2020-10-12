@@ -4,8 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./main.css" />
   </head>
   <body>
-    drljkgjnzerljgnD
+    <div id="buttons-container">
+      <div id="start-buttons">
+        <button id="easy-btn"><p class="start-btn">easy</p></button>
+        <button id="med-btn"><p class="start-btn">medium</p></button>
+        <button id="hard-btn"><p class="start-btn">hard</p></button>
+      </div>
+      <div id="game-container">
+        <input type="number" name="number-field" id="number-field" />
+        <button id="number-button">submit</button>
+      </div>
+      <div id="info-center">
+        <p id="difficulty"></p>
+        <p id="guess-remaining"></p>
+        <p id="cold-hot"></p>
+      </div>
+    </div>
+    <br />
+
+    <script src="./index.js"></script>
   </body>
 </html>
